@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+  --color-background-brand: #141414;
+  --color-background-brand-light: #1c1c1c;
+  --color-primary-red: #d00303;
+  --color-primary-gray: #898989;
+  --color-primary-black-light: #1c1c1c;
+
+  --button-height: 3.75rem;
+  --button-width: 18.75rem;
+
+  --text-base: 2.5rem;
+
+  --leading-title: "120%";
+  --leading-base: "140%";
+}
+
+body {
+  background-color: var(--color-background-brand);
+}
