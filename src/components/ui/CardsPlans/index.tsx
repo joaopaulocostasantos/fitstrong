@@ -40,7 +40,10 @@ export function CardsPlans({ title, valuePlan, list, cta }: CardsPlansProps) {
       </div>
 
       <Link
-        href={"https://wa.me/+5584996907031"}
+        href={
+          "https://wa.me/5584996907031?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20FitStrong%20e%20quero%20garantir%20minha%20condi%C3%A7%C3%A3o%20especial."
+        }
+        target="_black"
         className="bg-green-500 text-white text-xl flex items-center justify-center w-fit px-10 py-4 rounded-full mx-auto mb-10 hover:bg-green-700 cursor-pointer"
       >
         {cta}
